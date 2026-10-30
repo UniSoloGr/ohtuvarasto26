@@ -37,7 +37,7 @@ class TestVarasto(unittest.TestCase):
         self.varasto.ota_varastosta(2)
 
         # varastossa pitäisi olla tilaa 10 - 8 + 2 eli 4
-        self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 5)
+        self.assertAlmostEqual(self.varasto.paljonko_mahtuu(), 4)
     
     def test_str_palauttaa_oikean_merkkijonoesityksen(self):
         self.assertSequenceEqual(str(self.varasto), "saldo = 0, vielä tilaa 10")
