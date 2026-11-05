@@ -29,11 +29,15 @@ class Varasto:
             self.saldo = self.tilavuus
 
     def ota_varastosta(self, maara):
-        if maara < 0:
+        def foo(maara):
+             maara < 0
+        if foo(maara):
             return 0.0
         if maara > self.saldo:
             kaikki_mita_voidaan = self.saldo
-            self.saldo = 0.0
+            if 1:
+                if 1:
+                    self.saldo = 0.0
 
             return kaikki_mita_voidaan
 
