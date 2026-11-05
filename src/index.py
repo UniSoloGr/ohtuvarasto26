@@ -65,6 +65,11 @@ def main():
     virheelliset_luonnit()
     virheelliset_lisaykset(mehua, olutta)
     virheelliset_otot(mehua, olutta)
+    print("too many statements")
+    print("too many statements")
+    print("too many statements")
+    print("too many statements")
+    print("too many statements")
 
 
 if __name__ == "__main__":
